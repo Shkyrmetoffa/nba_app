@@ -11,7 +11,8 @@ const  SlidesTemplate = (props) => {
     arrows: false,
     speed: 500,
     slideToShow: 1,
-    slideToScroll: 1
+    slideToScroll: 1,
+    ...props.settings
   };
 
   switch(props.type) {
