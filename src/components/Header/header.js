@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 
 import SideNav from './SideNav/sideNav';
 import FontAwesome from 'react-fontawesome';
-import './header.css';
+import style from './header.css';
 
 const Header = (props) => {
     const navBars = () => (
-      <div className='bars'>
+      <div className={style.bars}>
         <FontAwesome 
           name='bars'
           onClick={props.onOpenNav}
@@ -21,15 +21,15 @@ const Header = (props) => {
     );
 
     const logo = () => (
-        <Link to="/" className='logo'>
+        <Link to="/" className={style.logo}>
           <img alt="nba_logo" src="./images/nba.png" style={{ height: '50px', width: '50px' }}/>
         </Link>
     );
 
     return (
-      <header className='header'>
+      <header className={style.header}>
         <SideNav {...props} />
-        <div className='headerOpt'>
+        <div className={style.headerOpt}>
           {navBars()}
           {logo()}
         </div>

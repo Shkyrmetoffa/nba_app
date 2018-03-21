@@ -1,0 +1,44 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "Amsterdam",
+      "image": "1.jpg",
+      "team": "typicode"
+    },
+    {
+      "id": 2,
+      "title": "NewYork",
+      "image": "2.jpg",
+      "team": "typicode"
+    },
+    {
+      "id": 3,
+      "title": "California",
+      "image": "3.jpg",
+      "team": "typicode"
+    },
+    {
+      "id": 4,
+      "title": "Barselona",
+      "image": "4.jpg",
+      "team": "typicode"
+    },
+    {
+      "id": 5,
+      "title": "Costa-Brava",
+      "image": "5.jpg",
+      "team": "typicode"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "teams": {
+    "name": "typicode"
+  }
+}

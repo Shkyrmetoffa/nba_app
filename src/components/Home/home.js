@@ -1,11 +1,10 @@
 import React from 'react';
-import Layout from '../Layout/layout';
+import NewsSlider from '../widgets/NewsSlider/Slider';
 
 const Home = () => {
   return (
     <div>
-      <Layout />
-      Home
+      <NewsSlider />
     </div>
   );
 };
