@@ -3,14 +3,13 @@ import { Link } from 'react-router-dom';
 
 import SideNav from './SideNav/sideNav';
 import FontAwesome from 'react-fontawesome';
-import style from './header.css';
+import './header.css';
 
 const Header = (props) => {
-console.log(props);
     const navBars = () => (
-      <div className={style.bars}>
+      <div className='bars'>
         <FontAwesome 
-          name="bars"
+          name='bars'
           onClick={props.onOpenNav}
           style={{
             color: '#dfdfdf',
@@ -22,15 +21,15 @@ console.log(props);
     );
 
     const logo = () => (
-        <Link to="/" className={style.logo}>
-          <img alt="nba_logo" src="./images/nba.png"/>
+        <Link to="/" className='logo'>
+          <img alt="nba_logo" src="./images/nba.png" style={{ height: '50px', width: '50px' }}/>
         </Link>
     );
 
     return (
-      <header className={style.header}>
+      <header className='header'>
         <SideNav {...props} />
-        <div className={style.headerOpt}>
+        <div className='headerOpt'>
           {navBars()}
           {logo()}
         </div>

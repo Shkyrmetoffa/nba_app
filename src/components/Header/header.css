@@ -1,5 +1,15 @@
-/* style {
-  logo: {
-
-  }
-} */
+.logo {
+}
+.bars {
+  background: blue;
+  height: 30px;
+  width: 30px;
+  padding: 10px;
+  
+}
+.header {
+  background: green;
+}
+.headerOpt {
+  background: brown;
+}
