@@ -4,49 +4,49 @@
       "id": 1,
       "title": "Amsterdam",
       "image": "1.jpg",
-      "team": "typicode"
+      "team": 3
     },
     {
       "id": 2,
       "title": "NewYork",
       "image": "2.jpg",
-      "team": "typicode"
+      "team": 4
     },
     {
       "id": 3,
       "title": "California",
       "image": "3.jpg",
-      "team": "typicode"
+      "team": 5
     },
     {
       "id": 4,
       "title": "Barselona",
       "image": "4.jpg",
-      "team": "typicode"
+      "team": 6
     },
     {
       "id": 5,
       "title": "Costa-Brava",
       "image": "5.jpg",
-      "team": "typicode"
+      "team": 7
     },
     {
       "id": 6,
       "title": "Costa-Brava",
       "image": "5.jpg",
-      "team": "typicode"
+      "team": 8
     },
     {
       "id": 7,
       "title": "Costa-Brava",
       "image": "5.jpg",
-      "team": "typicode"
+      "team": 9
     },
     {
       "id": 8,
       "title": "Costa-Brava",
       "image": "5.jpg",
-      "team": "typicode"
+      "team": 10
     }
   ],
   "videos": [
@@ -56,7 +56,30 @@
       "postId": 1
     }
   ],
-  "teams": {
-    "name": "typicode"
-  }
+  "teams": [
+    {
+      "id": 1,
+      "name": "typicode",
+      "city": "Atlanta",
+      "logo": "haw"
+    },
+    {
+      "id": 2,
+      "name": "typicode",
+      "city": "Atlanta",
+      "logo": "haw"
+    },
+    {
+      "id": 3,
+      "name": "typicode",
+      "city": "Atlanta",
+      "logo": "haw"
+    },
+    {
+      "id": 4,
+      "name": "typicode",
+      "city": "Atlanta",
+      "logo": "haw"
+    }
+  ]
 }
